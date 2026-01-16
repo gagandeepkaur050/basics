@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background: #232830;
+}
+/* Utility */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.hero {
+  text-align: center;
+  padding: 60px 0;
+}
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+/* menu css start */
+.site-header {
+  padding: 20px;
+}
+h1.logo {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+nav.nav-menu a {
+    font-size: 24px font-w;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* menu css end */
+/* hero banner css start */
+.hero h2 {
+    font-family: Recursive;
+    font-size: 71px;
+    color: #FF7575;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero p {
+    font-family: Poppins;
+    font-size: 29px;
+}
+/* hero banner css end */
