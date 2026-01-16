@@ -25,11 +25,11 @@ body {
   text-align: center;
   padding: 60px 0;
 }
-.posts {
+/* .posts {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 24px;
-}
+} */
 /* menu css start */
 .site-header {
   padding: 20px;
@@ -68,3 +68,78 @@ nav.nav-menu a {
     font-size: 29px;
 }
 /* hero banner css end */
+/*  selection bar css start */
+.selection-bar .wrap {
+    display: flex;
+    align-items: center;
+}
+
+nav.selection-nav a {
+    font-family: Recursive;
+    color: #909090;
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: italic;
+        margin-left: 25px;
+}
+.selection-type img:last-child {
+    margin-left: 10px;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Icons */
+.selection-type {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0; /* prevents icons from shrinking */
+}
+
+.selection-type img {
+  width: 20px;
+  cursor: pointer;
+}
+
+/* Horizontal scrolling nav */
+.selection-nav {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.selection-nav::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.selection-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+.selection-topic{
+    position: relative;
+    max-width: 100%;
+}
+.selection-topic:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 40px;
+  height: 100%;
+
+  pointer-events: none;
+
+  background: linear-gradient(    to left,    #232830,    rgba(255, 255, 255, 0)  );
+}
+/* selection bar css end */
