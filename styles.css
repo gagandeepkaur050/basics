@@ -143,3 +143,12 @@ nav.selection-nav a {
   background: linear-gradient(    to left,    #232830,    rgba(255, 255, 255, 0)  );
 }
 /* selection bar css end */
+/* cards css start */
+article.post-card {
+    background: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 22px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* cards css end */
