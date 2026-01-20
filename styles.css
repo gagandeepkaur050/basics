@@ -150,5 +150,14 @@ article.post-card {
     border-radius: 22px;
     padding: 20px;
     margin-bottom: 20px;
+    flex: 1 1 32%;
+    max-width: 32%;
+}
+.post-card-wrappper {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 /* cards css end */
