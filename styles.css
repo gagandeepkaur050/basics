@@ -127,7 +127,7 @@ nav.selection-nav a {
 }
 .selection-topic{
     position: relative;
-    max-width: 100%;
+    max-width: 92%;
 }
 .selection-topic:after {
   content: "";
@@ -159,5 +159,24 @@ article.post-card {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
+    margin: 15px 0;
+}
+article.post-card img {
+    width: 100%;
+}
+.post-card h3, .post-card p {
+    font-family: Poppins;
+    color: #0F1217;
+    font-size: 19px;
+    font-weight: 600;
+}
+.post-card p {
+    font-size: 16px;
 }
 /* cards css end */
+/* fppter css start */
+footer.site-footer {
+    text-align: center;
+    padding: 15px 0;
+}
+/* footer css end */
